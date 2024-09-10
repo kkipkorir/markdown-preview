@@ -1,0 +1,28 @@
+body{
+  width:100vw;
+  height:100vh;
+ display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+/* Container for the buttons */
+.button-container {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+  margin: 10px;
+  justify-content:flex-end;
+}
+
+/* Common button styling */
+button {
+  width: fit-content;
+  height: fit-content;
+  border: none;
+  background-color:yellow;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #000000;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}

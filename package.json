@@ -1,0 +1,11 @@
+{
+  "name": "markdown-preview",
+  "version": "1.0.0",
+  "description": "This is a markdown previewer",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "",
+  "license": "ISC"
+}
